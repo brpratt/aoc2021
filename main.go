@@ -6,11 +6,13 @@ import (
 	"strconv"
 
 	"aoc2021/day01"
+	"aoc2021/day02"
 )
 
 var days = []func(){
 	func() {},
 	day01.Solve,
+	day02.Solve,
 }
 
 func main() {

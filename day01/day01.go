@@ -8,7 +8,7 @@ import (
 )
 
 func Solve() {
-	lines, err := util.ReadLines("day01/day01_input.txt")
+	lines, err := util.ReadLines("day01/input.txt")
 	if err != nil {
 		panic(err)
 	}
