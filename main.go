@@ -27,8 +27,8 @@ func main() {
 		os.Exit(1)
 	}
 
-	if len(days)-1 < day {
-		fmt.Printf("Day %d not complete\n", day)
+	if len(days)-1 < day || day < 1 {
+		fmt.Printf("Valid day range: 1 - %d (inclusive)", len(days)-1)
 		os.Exit(1)
 	}
 
