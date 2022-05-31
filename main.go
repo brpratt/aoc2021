@@ -7,12 +7,14 @@ import (
 
 	"aoc2021/day01"
 	"aoc2021/day02"
+	"aoc2021/day03"
 )
 
 var days = []func(){
 	func() {},
 	day01.Solve,
 	day02.Solve,
+	day03.Solve,
 }
 
 func main() {
